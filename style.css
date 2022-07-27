@@ -113,3 +113,8 @@ p{
 .subscribe .pe-btn{
   color: var(--main);
 }
+
+.text-sm{
+  font-family: var(--font-main);
+  font-size: var(--text-sm);
+}
