@@ -1,12 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home | EdTech</title>
-</head>
-<body>
-  <h1>Get Started Digital Learning</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | EdTech</title>
+
+    <!-- Bootstrap CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <!-- Main custom css  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Header | Hero  -->
+    <header class="container">
+      <!-- Navbar  -->
+      <nav class="navbar navbar-expand-lg my-4">
+        <a class="navbar-brand" href="#">Navbar</a>
+
+        <button class="reg-btn d-none d-md-block d-lg-none  ms-auto me-3">Register</button>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav m-lg-auto gap-lg-5">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Success</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Register</a>
+            </li>
+          </ul>
+        </div>
+        <button class="reg-btn d-none d-lg-block">Register</button>
+      </nav>
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <!-- Navbar End -->
+          <div class="carousel-item active ">
+            <img src="./images/cover/cover-1.jpg" class="d-block w-100 rounded-1" alt="..."><div class="carousel-caption d-none d-md-block">
+              <h2 class="main-title mx-auto fw-bold">Get Started Digital Learning</h2>
+              <p class="hero-text mx-auto">Create your free account now and get immediate access to 100s of online courses.</p>
+              <button class="pe-btn">Get Started</button>
+            </div>
+            <div class="overlay rounded-1"> </div>
+          </div>
+          <!-- Carousel  -->
+          <!-- Navbar End -->
+          <div class="carousel-item active ">
+            <img src="./images/cover/cover-2.jpg" class="d-block w-100 rounded-1" alt="..."><div class="carousel-caption d-none d-md-block">
+              <h2 class="main-title mx-auto fw-bold">Get Started Digital Learning</h2>
+              <p class="hero-text mx-auto">Create your free account now and get immediate access to 100s of online courses.</p>
+              <button class="pe-btn">Get Started</button>
+            </div>
+            <div class="overlay rounded-1"> </div>
+          </div>
+          <!-- Carousel  -->
+          <!-- Navbar End -->
+          <div class="carousel-item active ">
+            <img src="./images/cover/cover-3.png" class="d-block w-100 rounded-1" alt="..."><div class="carousel-caption d-none d-md-block">
+              <h2 class="main-title mx-auto fw-bold">Get Started Digital Learning</h2>
+              <p class="hero-text mx-auto">Create your free account now and get immediate access to 100s of online courses.</p>
+              <button class="pe-btn">Get Started</button>
+            </div>
+            <div class="overlay rounded-1"> </div>
+          </div>
+          <!-- Carousel  -->
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- Carousel End -->
+    </header>
+
+    <!-- Header | Hero End -->
+
+    <!--Bootstrap JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
