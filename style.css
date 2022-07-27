@@ -103,3 +103,13 @@ p{
 .course-bg{
   background: #F4FAFD;
 }
+
+/* subscribe  */
+
+
+.subscribe-bg{
+  background-color: var(--main);
+}
+.subscribe .pe-btn{
+  color: var(--main);
+}
