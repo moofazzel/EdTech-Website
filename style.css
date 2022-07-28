@@ -118,3 +118,28 @@ p{
   font-family: var(--font-main);
   font-size: var(--text-sm);
 }
+
+.w-42{
+  width: 42px;
+  height: 42px;
+}
+.carousel-control-next{
+  top:45%;
+  right: -23px;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  color: #E5F6FF !important;
+  background: #289BDE;
+  opacity: 1;
+}
+.carousel-control-prev{
+  top:45%;
+  left: -23px;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  color: #E5F6FF !important;
+  background: #289BDE;
+  opacity: 1;
+}
