@@ -9,7 +9,7 @@
   --bg-dark:#161616;
 
   /* Font size */
-  --text-title-main: 50px;
+  --text-title-main: 40px;
   --text-title: 45px;
   --text-subtitle: 25px;
   --text-sm: 20px;
@@ -18,6 +18,18 @@
   --font-main:"Mulish", sans-serif;
   --font-second:"Poppins", sans-serif;
 }
+
+/* Mobile font  */
+
+@media only screen and (max-width: 767px) {
+  :root{
+    --text-title-main: 20px;
+    --text-title: 26px;
+    --text-subtitle: 22px;
+    --text-sm: 12px;
+  }
+}
+
 
 body {
   /* font-family: "Mulish", sans-serif; */
@@ -35,18 +47,19 @@ p{
 /* Main css start  */
 
 .reg-btn {
-  font-size: var(--text-sm);
+  font-size: var(--text-xs);
   color: var(--main);
-  padding: 12px 30px;
+  padding: 10px 25px;
   border: 1px solid var(--main);
   border-radius: 5px;
   background-color: transparent;
 }
 
 .pe-btn {
-  font-size: var(--text-sm);
+  font-size: var(--text-xs);
+  font-family: var(--font-main);
   color: var(--white);
-  padding: 12px 30px;
+  padding: 10px 25px;
   border: none;
   border-radius: 5px;
   background-color: var(--main);
@@ -70,7 +83,7 @@ p{
 .carousel-caption{
   z-index: 2;
   bottom: 50%;
-  transform: translateY(50%);
+  transform: translateY(60%);
 }
 
 .main-title{
@@ -80,7 +93,6 @@ p{
 
 .hero-text{
   font-size: var(--text-xs);
-  font-family: var(--font-main);
   max-width: 550px;
 }
 
