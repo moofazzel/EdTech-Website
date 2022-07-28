@@ -6,6 +6,7 @@
   --dark: #1d1d1d;
   --dark-2: #4a4a4a;
   --dark-3: #777777;
+  --bg-dark:#161616;
 
   /* Font size */
   --text-title-main: 50px;
@@ -148,4 +149,8 @@ p{
 
 .custom-width-faq{
   width:min(870px, 100%);
+}
+
+footer{
+  background: var(--bg-dark);
 }
