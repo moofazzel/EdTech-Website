@@ -151,6 +151,23 @@ p{
   width:min(870px, 100%);
 }
 
+.brand img{
+  width: 130px;
+}
+
 footer{
   background: var(--bg-dark);
+}
+
+.social-icons a img{
+  transition: .5s;
+  margin-bottom: 5px;
+  border: 3px solid white;
+  border-radius: 50%;
+}
+
+.social-icons a:hover img{
+transform: translateY(-10px);
+border: 1.5px solid white;
+border-radius: 50%;
 }
